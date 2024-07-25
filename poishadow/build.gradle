@@ -61,6 +61,9 @@ shadowJar {
     relocate 'java.awt.Dimension', 'org.apache.poi.java.awt.Dimension'
     relocate 'java.awt.image.BufferedImage', 'org.apache.poi.java.awt.image.BufferedImage'
 
+    relocate 'java.awt.font.FontRenderContext', 'org.apache.poi.java.awt.font.FontRenderContext'
+    relocate 'java.awt.font.TextLayout', 'org.apache.poi.java.awt.font.TextLayout'
+
     relocate 'javax.imageio.ImageIO', 'org.apache.poi.javax.imageio.ImageIO'
     relocate 'javax.imageio.ImageReader', 'org.apache.poi.javax.imageio.ImageReader'
     relocate 'javax.imageio.stream.ImageInputStream', 'org.apache.poi.javax.imageio.stream.ImageInputStream'
