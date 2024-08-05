@@ -1,0 +1,13 @@
+pluginManagement {
+    buildscript {
+        repositories {
+            google()
+        }
+        dependencies {
+            classpath("com.android.tools:r8:8.2.33")
+        }
+    }
+}
+
+include ':poitest'
+include ':poishadow'

@@ -1,0 +1,6 @@
+.gradle/
+build/
+.idea/
+*.iml
+local.properties
+java_pid27820.hprof
